@@ -1,0 +1,32 @@
+Package: sqtlviztools
+Type: Package
+Title: Visualise splicing QTLs
+Version: 0.1.0
+Author: Jack Humphrey
+Maintainer: Jack Humphrey <jack.humphrey@mssm.edu>
+Description: 
+    A packge to aid in visualising splicing QTLs derived from Leafcutter junctions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    ggplot2,
+    stringr,
+    shiny,
+    DT,
+    shinycssloaders,
+    shinyjs,
+    leafviz,
+    reshape2,
+    optparse,
+    gridExtra,
+    intervals,
+    foreach,
+    grid,
+    gtable,
+    ggrepel,
+    ggbeeswarm
+    
+Remotes:
+    jackhump/leafviz
